@@ -14,7 +14,7 @@ const Submission = () => {
       <p>[hquinn@HenryGives ~]$ <span className={submissionStyles.typed}>&nbsp;./submit.sh<span>&nbsp;</span></span></p>
       <div className={hidden ? submissionStyles.hiddenPart : ""}>
         <div>
-          <h1>Micro-Scholarships for Rad Web Shit</h1>
+          <h1>Micro-Scholarships for <u>Rad</u> <u>Web</u> <u>Shit</u></h1>
           <h3>April 2021 - Web Projects for Local Communities</h3>
           <p>Some of my favorite projects (both to work on and see in the wild) have been things folks have built to help communities they're involved with.</p>
           <p>What's the coolest <i>web thing</i> you've built for a local community?</p>
