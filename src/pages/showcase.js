@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import PastCollections from "../components/PastCollections"
+import ShowcaseCollection from "../components/ShowcaseCollection"
 
 export default () => (
   <Layout>
-    <PastCollections />
+    <ShowcaseCollection />
   </Layout>
 );

@@ -6,7 +6,7 @@ export default () => ( <div>
     ---------------------------------------------------------------------------
     <br />
     <Link to="/">[ Home ]</Link>&nbsp;
-    <Link to="/past-collections/">[ Past Collections ]</Link>&nbsp;
+    <Link to="/pastCollections/">[ Past Collections ]</Link>&nbsp;
     <Link to="/showcase/">[ Showcase ]</Link>&nbsp;
     <Link to="/submission/">[ Submit a Project ]</Link>&nbsp;
     <Link to="/contact/">[ Contact ]</Link>&nbsp;

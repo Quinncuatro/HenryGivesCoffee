@@ -33,16 +33,12 @@ export default class PostPage extends Component {
     return (
       <Layout>
         <div>
-          <span >{ blogPostPagePrompt }<br />
-          Welcome to HenryGives.Coffee!</span>
-          <br /><br />
-          <MenuBar />
           <p>[hquinn@HenryGives ~]$ cat /var/www/blog/post.md</p>
         </div>
         <div>
           <h1>{post.title}</h1>
           <p>{post.date}</p>
-          <Link to="/blog/">&#8656; Back to Posts</Link>
+          <Link to="/pastCollections/">&#8656; Back to Past Collections</Link>
           <hr />
         </div>
         <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>

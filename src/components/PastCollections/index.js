@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
-import blogStyles from "./blog.module.css"
+import pastCollectionStyles from "./pastCollections.module.css"
 import PostListing from "../Posts"
 import Footer from "../Footer"
 
@@ -12,8 +12,8 @@ const PastCollections = data => {
 
   return (
     <div>
-      <p>[hquinn@HenryGives ~]$ <span className={blogStyles.typed}>&nbsp;history<span>&nbsp;</span></span></p>
-      <div className={hidden ? blogStyles.hiddenPart : ""}>
+      <p>[hquinn@HenryGives ~]$ <span className={pastCollectionStyles.typed}>&nbsp;history<span>&nbsp;</span></span></p>
+      <div className={hidden ? pastCollectionStyles.hiddenPart : ""}>
         <h1>Recent Articles</h1>
         <hr />
         {data.allMarkdownRemark.edges.map(({ node }) => (

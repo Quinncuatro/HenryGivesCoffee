@@ -13,16 +13,40 @@ const HomePage = () => {
     <div>
       <p>[hquinn@HenryGives ~]$ <span className={homePageStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span></p>
       <div className={hidden ? homePageStyles.hiddenPart : ""}>
+        <h1>Micro-Scholarships for <u>Rad</u> <u>Web</u> <u>Shit</u>.</h1>
+        <hr/>
         <div>
-          <h1>Micro-Scholarships for <u>Rad</u> <u>Web</u> <u>Shit</u></h1>
-          <hr/>
-          <h3>The internet is way more fun when people are working on fun side projects.</h3>
-          
-          
+          <h2>Theme for April 2021: Web Projects for Local Communities</h2>
 
-          <h3>My friends help me run <a href="https://newhaven.io" target="_blank" rel="noopener noreferrer">NewHaven.IO</a>, coach <a href="https://opensports.net/NewHavenNerdLeague" target="_blank" rel="noreferrer">New Haven Nerd League</a>, and build web projects.</h3>
-         
-          <h3>Please <Link to="/contact/">hit me up</Link> if you want to collab on something!</h3>
+          <p>Some of the coolest projects I've seen come from folks wanting to help a community they're a part of.</p>
+
+          <p>Just in the past year I've seen tools to help crowdsource mutual aid resources, COVID data trackers, and web apps that let small community organizations better interact with their members.</p>
+
+          <p>If you've built something cool to help a local community (doesn't matter how big or small) I'd love if you shared it with me!</p>
+
+          <p>Head on over to the submission form, tell me a little about what you hacked on, and maybe I'll give you some coffee!</p>
+
+          <Link to="/submission/">[ Submit a Project ]</Link>&nbsp;
+        </div>
+        <hr/>
+        <div>
+          <h2>So What <u>IS</u>signalBoostLogin HenryGivesCoffee?</h2>
+
+          <p>After building side projects on the web for a decade, I still loop back to one thought:</p>
+
+          <p><blockquote>"How rad would it be if this could earn me some beer money?"</blockquote></p>
+          
+          <p>The internet is infinitely more cool when folks build rad shit, and those devs 100% deserve some money for caffeine, snacks, or whatever.</p>
+
+          <p>That's where I come in.</p>
+
+          <p>Every month I'll pick a new theme. If you've built something rad that fits the theme (like at ALL), feel free to submit it!</p>
+
+          <p>I'll select five projects that stand out, write an article to showcase them, and throw each of the developers $10!</p>
+          
+          <p>Listen, if you're reading this, you've probably built something cool.</p>
+          
+          <p>Let me give you a coffee for making the internet a more interesting place.</p>
         </div>
         <hr/>
         <Footer />
