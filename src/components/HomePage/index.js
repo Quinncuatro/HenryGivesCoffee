@@ -30,7 +30,7 @@ const HomePage = () => {
         </div>
         <hr/>
         <div>
-          <h2>So What <u>IS</u>signalBoostLogin HenryGivesCoffee?</h2>
+          <h2>So What <u>IS</u> HenryGivesCoffee?</h2>
 
           <p>After building side projects on the web for a decade, I still loop back to one thought:</p>
 
