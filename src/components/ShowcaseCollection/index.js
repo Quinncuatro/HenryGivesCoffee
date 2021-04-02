@@ -4,7 +4,7 @@ import showcaseCollection from "./showcaseCollection.module.css"
 import Showcase from "../Showcase"
 import Footer from "../Footer"
 
-const SignalBoostPage = data => {
+const ShowcasePage = data => {
   const [hidden, setHidden] = useState(true);
   useEffect(() => {
     setTimeout(() => setHidden(false), 900)
@@ -12,29 +12,23 @@ const SignalBoostPage = data => {
 
   return (
     <div>
-      <p>[hquinn@HenryNeeds ~]$ <span className={showcaseCollection.typed}>&nbsp;useradd<span>&nbsp;</span></span></p>
+      <p>[hquinn@HenryNeeds ~]$ <span className={showcaseCollection.typed}>&nbsp;cat /etc/shadow<span>&nbsp;</span></span></p>
       <div className={hidden ? showcaseCollection.hiddenPart : ""}>
-        <h1>Signal Boosts</h1>
+        <h1>Project Showcase</h1>
         <hr/>
-        <p>These amazing folks are currently looking for a job. If you or your orgs are hiring for roles with these skills, please feel free to reach out to them.</p>
-        <p>To add yourself to this list, fork <a href="https://github.com/Quinncuatro/Henry-Personal-Website" target="_blank" rel="noopener noreferrer">this website's source code</a> and submit a pull request with edits following <a href="https://github.com/Quinncuatro/Henry-Personal-Website/blob/master/src/signalboost/" target="_blank" rel="noopener noreferrer">these instructions</a>.</p>
-        <p>With COVID-19 continuing to rage across the world, these people are in need of a job now more than ever.</p>
+        <p>These are the projects from each collection that absolutely blew me away. Devs building rad shit for the web is always a good thing, and these developers earned their coffee.</p>
         <hr/><hr/>
-        <h2>People</h2>
+        <h2>Collection 0: HenryGivesCoffee</h2>
         <hr/>
-        {data.allShowcaseYaml.edges[0].node.people.map((person) => (
+        {data.allShowcaseYaml.edges[0].node.projects.map((project) => (
           <Showcase
-            name={person.name}
-            hidden={person.hidden}
-            tech={person.tech}
-            blog={person.blog}
-            devto={person.devto}
-            dribbble={person.dribbble}
-            github={person.github}
-            gitlab={person.gitlab}
-            linkedin={person.linkedin}
-            twitter={person.twitter}
-            website={person.website}
+            devName={project.devName}
+            projectName={project.projectName}
+            liveURL={project.liveURL}
+            gitURL={project.gitURL}
+            description={project.description}
+            paymentURL={project.paymentURL}
+            devContact={project.devContact}
           />
         ))}
         <Footer />
@@ -46,28 +40,24 @@ const SignalBoostPage = data => {
 export default () => (
   <StaticQuery
     query={graphql`
-      query signalBoostQuery {
+      query showcaseQuery {
         allShowcaseYaml {
           edges {
             node {
-              people {
-                name
-                hidden
-                tech
-                blog
-                devto
-                dribbble
-                github
-                gitlab
-                linkedin
-                twitter
-                website
+              projects {
+                devName
+                projectName
+                liveURL
+                gitURL
+                description
+                paymentURL
+                devContact
               }
             }
           }
         }
       }
     `}
-    render={SignalBoostPage}
+    render={ShowcasePage}
   />
 )

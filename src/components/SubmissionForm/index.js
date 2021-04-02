@@ -18,14 +18,19 @@ export default () => (
             <input type="text" name="name" required />
           </p>
 
-          <li>What's the name of your project?</li>
+          <li>Project Name</li>
           <p>
             <input type="text" name="project-name" required />
           </p>
 
-          <li>If it's live on the web, throw me a URL? Alternatively, throw me a link to a repo?</li>
+          <li>Live URL (Optional)</li>
           <p>
-            <input type="text" name="project-url" required />
+            <input type="text" name="project-url" />
+          </p>
+
+          <li>Git Repo URL (Optional)</li>
+          <p>
+            <input type="text" name="project-git" />
           </p>
 
           <li>Tell me all about your project! What inspired it? What challenged you?</li>
@@ -38,11 +43,11 @@ export default () => (
             <p>
               <input type="text" name="payment" required />
             </p>
-            <p>b.) Anything you want to plug in the writeup, like a podcast or another project?</p>
+            <p>b.) Is there anything you want plugged in the writeup?</p>
             <p>
             <input type="text" name="plug" required />
             </p>
-            <p>c.) What's a good way for me and others to get ahold of you? Maybe your Twitter or a personal website?</p>
+            <p>c.) What's a good way to get ahold of you? Maybe Twitter or a personal website?</p>
             <p>
             <input type="text" name="contact" required />
             </p>

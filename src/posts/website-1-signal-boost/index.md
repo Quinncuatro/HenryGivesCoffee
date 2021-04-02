@@ -12,14 +12,6 @@ So in addition to my personal space on the web over at [HenryNeeds.Coffee](https
 
 ---
 
-It took me a couple of days' worth of free cycles to figure this all out and get it working the way I like it, but the current version works great!
-
-So far I've had two folks submit PR's and it went off without a hitch. They submitted their PR, I hit the "Merge" button, and the builds kicked off all on their own.
-
-Building the feature was pretty painless given that I already had my site built on Gatsby's engine. However, adding something like this to a different static site generator or build process should be fairly easy once you understand the data flow.
-
-Lots of folks lost their jobs over the past year, and really what's the point of having a voice, site, blog, or whatever if we don't help others climb up behind us on the same ladders?
-
 Just something to chew on.
 
 Stay frosty.
