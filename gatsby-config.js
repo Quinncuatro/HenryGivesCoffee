@@ -47,7 +47,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Henry Gives Coffee`,
-        short_name: `HenryGivesCoffee`,
+        short_name: `Henry Gives Coffee`,
         start_url: `/`,
         background_color: `#355366`,
         theme_color: `#355366`,

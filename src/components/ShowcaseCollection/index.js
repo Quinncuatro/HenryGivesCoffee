@@ -18,7 +18,7 @@ const ShowcasePage = data => {
         <hr/>
         <p>These are the projects from each collection that absolutely blew me away. Devs building rad shit for the web is always a good thing, and these developers earned their coffee.</p>
         <hr/><hr/>
-        <h2>Collection 0: HenryGivesCoffee</h2>
+        <h2>Collection 0: Henry Gives Coffee</h2>
         <hr/>
         {data.allShowcaseYaml.edges[0].node.projects.map((project) => (
           <Showcase

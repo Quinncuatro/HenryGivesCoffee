@@ -1,9 +1,9 @@
 projects:
   - devName: "Henry Quinn"
-    projectName: "HenryGivesCoffee"
+    projectName: "Henry Gives Coffee"
     liveURL: "https://henrygives.coffee"
     gitURL: "https://github.com/quinncuatro/HenryGivesCoffee"
-    description: "Let's be real, this is just a card to show what other projects will look like in the showcase. I drank a decent amount of coffee for how long it took me to throw HenryGivesCoffee together, but this website is way more about all of the cool things the rest of y'all are building. :)"
+    description: "Let's be real, this is just a card to show what other projects will look like in the showcase. I drank a decent amount of coffee for how long it took me to throw Henry Gives Coffee together, but this website is way more about all of the cool things the rest of y'all are building. :)"
     projectScreenshot: "0"
     paymentURL: "https://ko-fi.com/henryquinn"
     devContact: "https://twitter.com/quinncuatro"
