@@ -27,6 +27,7 @@ const ShowcasePage = data => {
             liveURL={project.liveURL}
             gitURL={project.gitURL}
             description={project.description}
+            projectScreenshot={project.projectScreenshot}
             paymentURL={project.paymentURL}
             devContact={project.devContact}
           />
@@ -50,6 +51,7 @@ export default () => (
                 liveURL
                 gitURL
                 description
+                projectScreenshot
                 paymentURL
                 devContact
               }
