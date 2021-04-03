@@ -22,7 +22,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   const pagePaths = {
-    pastCollections: "./src/posts/PostPage.js"
+    pastCollections: "./src/pastCollections/PostPage.js"
   };
   return new Promise((resolve, reject) => {
     graphql(`

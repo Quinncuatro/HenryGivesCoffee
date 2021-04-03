@@ -42,7 +42,7 @@ const HomePage = () => {
 
           <p>Every month I'll pick a new theme. If you've built something rad that fits the theme (like at ALL), feel free to submit it!</p>
 
-          <p>I'll select five projects that stand out, write an article to showcase them, and throw each of the developers $10!</p>
+          <p>I'll select three projects that stand out, write an article to showcase them, and throw each of the developers $10!</p>
           
           <p>Listen, if you're reading this, you've probably built something cool.</p>
           

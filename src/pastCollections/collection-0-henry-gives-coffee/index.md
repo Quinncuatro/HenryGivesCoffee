@@ -1,5 +1,5 @@
 ---
-title: "Why is Henry Giving Coffee?"
+title: "Why Is Henry Giving Coffee?"
 category: "Getting Started"
 date: "2021-03-29"
 type: "pastCollections"
