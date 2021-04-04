@@ -15,9 +15,9 @@ const Submission = () => {
       <div className={hidden ? submissionStyles.hiddenPart : ""}>
         <div>
           <h1>Micro-Scholarships for <u>Rad</u> <u>Web</u> <u>Shit</u>.</h1>
-          <h3>April 2021 - Web Projects for Local Communities</h3>
+          <h3>Collection 1: Web Projects for Local Communities (April 2021)</h3>
           <p>Some of my favorite projects (both to work on and see in the wild) have been things folks have built to help communities they're involved with.</p>
-          <p>What's the coolest <i>web thing</i> you've built for a local community?</p>
+          <p>What's the coolest *<i>web thing</i>* you've built for a local community?</p>
           <p>If your project makes the cut, you'll get some coffee money. On me. ;)</p>
           <p>Accepting entries through <strong><u>April 23rd, 2021</u></strong>.</p>
           <SubmissionForm />
