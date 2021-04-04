@@ -6,7 +6,11 @@ type: "pastCollections"
 desc: "Quick description of why Henry is Giving Coffee."
 ---
 
-## The web is more interesting when people are building rad shit.
+## The web is astoundingly more interesting when people are building rad shit.
+
+the internet has mostly become a collection of the same eight websites (google, yahoo, facebook, yahoo, wikipedia, reddit, netflix, instagram)
+
+There's not the fun internet we used to have and we should really get back to that
 
 So in addition to my personal space on the web over at [HenryNeeds.Coffee](https://henryneeds.coffee) I figured it was prudent to make an equal and opposite HenryGives.Coffee.
 
