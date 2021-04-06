@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
-import showcaseCollection from "./showcaseCollection.module.css"
+import showcaseCollectionStyles from "./showcaseCollection.module.css"
 import Showcase from "../Showcase"
 import Footer from "../Footer"
 
@@ -12,8 +12,8 @@ const ShowcasePage = data => {
 
   return (
     <div>
-      <p>[hquinn@HenryNeeds ~]$ <span className={showcaseCollection.typed}>&nbsp;cat /etc/shadow<span>&nbsp;</span></span></p>
-      <div className={hidden ? showcaseCollection.hiddenPart : ""}>
+      <p>[hquinn@HenryNeeds ~]$ <span className={showcaseCollectionStyles.typed}>&nbsp;cat /etc/shadow<span>&nbsp;</span></span></p>
+      <div className={hidden ? showcaseCollectionStyles.hiddenPart : ""}>
         <h1>Project Showcase</h1>
         <hr/>
         <p>These are the projects from each collection that absolutely blew me away. Devs building rad shit for the web is always a good thing, and these developers earned their coffee.</p>

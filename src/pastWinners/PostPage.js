@@ -17,7 +17,7 @@ export default class PostPage extends Component {
         <div>
           <h1>{post.title}</h1>
           <p>{post.date}</p>
-          <Link to="/pastCollections/">&#8656; Back to Past Collections</Link>
+          <Link to="/pastWinners/">&#8656; Back to Past Collections</Link>
           <hr />
         </div>
         <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
-import pastCollectionStyles from "./pastCollections.module.css"
+import pastWinnersStyles from "./pastWinners.module.css"
 import PostListing from "../Posts"
 import Footer from "../Footer"
 
-const PastCollections = data => {
+const PastWinners = data => {
   const [hidden, setHidden] = useState(true);
   useEffect(() => {
     setTimeout(() => setHidden(false), 900)
@@ -12,8 +12,8 @@ const PastCollections = data => {
 
   return (
     <div>
-      <p>[hquinn@HenryGives ~]$ <span className={pastCollectionStyles.typed}>&nbsp;history<span>&nbsp;</span></span></p>
-      <div className={hidden ? pastCollectionStyles.hiddenPart : ""}>
+      <p>[hquinn@HenryGives ~]$ <span className={pastWinnersStyles.typed}>&nbsp;history<span>&nbsp;</span></span></p>
+      <div className={hidden ? pastWinnersStyles.hiddenPart : ""}>
         <h1>Recent Articles</h1>
         <hr />
         {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -28,10 +28,10 @@ const PastCollections = data => {
 export default () => (
   <StaticQuery
     query={graphql`
-      query pastCollectionsQuery {
+      query pastWinnersQuery {
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC }
-          filter: { frontmatter: { type: { eq: "pastCollections" } } }
+          filter: { frontmatter: { type: { eq: "pastWinners" } } }
         ) {
           edges {
             node {
@@ -52,6 +52,6 @@ export default () => (
         }
       }
     `}
-    render={PastCollections}
+    render={PastWinners}
   />
 )

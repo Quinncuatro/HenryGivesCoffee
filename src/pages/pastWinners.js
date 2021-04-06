@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import PastCollections from "../components/PastCollections"
+import PastWinners from "../components/PastWinners"
 
 export default () => (
   <Layout>
-    <PastCollections />
+    <PastWinners />
   </Layout>
 );
