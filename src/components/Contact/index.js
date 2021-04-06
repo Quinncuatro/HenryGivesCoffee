@@ -19,11 +19,17 @@ const ContactPage = () => {
         <h2>Email</h2>
         <a href={ "mailto:"+myEmail }> [ Email Me ]</a>
         <h2>Social Media</h2>
-        <a href="https://github.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ GitHub ]</a>&nbsp;<a href="https://ko-fi.com/henryquinn" target="_blank" rel="noopener noreferrer">[ Ko-fi ]</a>&nbsp;
+        <a href="https://github.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ GitHub ]</a>&nbsp;
         <a href="https://www.twitter.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ Twitter ]</a>
-        <h2>Chat Apps</h2>
-        <a href="https://discordapp.com/users/Quinncuatro#0653" target="_blank" rel="noopener noreferrer">[ Discord ]</a>&nbsp;
-        <a href="https://t.me/quinncuatro" target="_blank" rel="noopener noreferrer">[ Telegram ]</a><br/>
+        <br/><br/>
+        <h1>Donate</h1>
+        <hr/>
+        <p>With your help, we can reward developers with a little more than just coffee money.</p>
+        <p>In the future I'd love to be able to send merch, PaaS/SaaS credits, and maybe some actual coffee to the people making the internet a more rad place!</p>
+        <h2>One Off Donations</h2>
+        <a href="https://ko-fi.com/henryquinn" target="_blank" rel="noopener noreferrer">[ Ko-Fi ]</a>
+        <h2>Monthly Donations</h2>
+        <a href="https://www.patreon.com/henrygivescoffee" target="_blank" rel="noopener noreferrer">[ Patreon ]</a>
         <hr />
         <Footer />
       </div>
