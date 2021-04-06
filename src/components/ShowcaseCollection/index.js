@@ -12,7 +12,7 @@ const ShowcasePage = data => {
 
   return (
     <div>
-      <p>[hquinn@HenryNeeds ~]$ <span className={showcaseCollectionStyles.typed}>&nbsp;cat /etc/shadow<span>&nbsp;</span></span></p>
+      <p>[hquinn@HenryNeeds ~]$ <span className={showcaseCollectionStyles.typed}>&nbsp;ls /var/www/html/<span>&nbsp;</span></span></p>
       <div className={hidden ? showcaseCollectionStyles.hiddenPart : ""}>
         <h1>Project Showcase</h1>
         <hr/>
