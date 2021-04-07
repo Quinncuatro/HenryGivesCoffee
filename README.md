@@ -20,7 +20,7 @@ The internet is infinitely more cool when folks build rad shit, and those devs 1
 
 That's where I come in.
 
-Every month I'll pick a new theme. If you've built something rad that fits the theme (like at ALL), feel free to submit it! I'll select three projects that stand out, write an article to showcase them, and throw each of the developers $10!
+Every month I'll pick a new theme. If you've built something rad that fits the theme (like at ALL), feel free to submit it! I'll select three projects that stand out, write an article to showcase them, and throw each of the developers $25!
 
 Listen, if you're reading this, you've probably built something cool. Let me give you a coffee for making the internet a more interesting place.
 
