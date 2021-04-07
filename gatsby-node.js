@@ -22,7 +22,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   const pagePaths = {
-    pastWinners: "./src/pastWinners/PostPage.js"
+    winners: "./src/winners/PostPage.js"
   };
   return new Promise((resolve, reject) => {
     graphql(`

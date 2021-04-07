@@ -2,7 +2,7 @@
 title: "Collection 0: Why Is Henry Giving Coffee?"
 category: "Getting Started"
 date: "2021-04-01"
-type: "pastWinners"
+type: "winners"
 desc: "Quick description of why Henry is Giving Coffee."
 ---
 

@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import PastWinners from "../components/PastWinners"
+import Winners from "../components/Winners"
 
 export default () => (
   <Layout>
-    <PastWinners />
+    <Winners />
   </Layout>
 );
