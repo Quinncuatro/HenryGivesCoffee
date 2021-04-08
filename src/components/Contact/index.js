@@ -27,6 +27,7 @@ const ContactPage = () => {
         <p>With your help, we can reward developers with a little more than just coffee money.</p>
         <p>In the future I'd love to be able to send merch, PaaS/SaaS credits, and maybe some actual coffee to the people making the internet a more rad place!</p>
         <p>I can keep HenryGivesCoffee as is self-funded forever, but enough folks have asked for a way to donate that I set up the donation points below.</p>
+        <p>Rest assured, every cent of your donation is being forwarded to the developers.</p>
         <h2>One Off Donations</h2>
         <a href="https://ko-fi.com/henryquinn" target="_blank" rel="noopener noreferrer">[ Ko-Fi ]</a>
         <h2>Monthly Donations</h2>

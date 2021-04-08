@@ -13,7 +13,7 @@ const HomePage = () => {
     <div>
       <p>[hquinn@HenryGives ~]$ <span className={homePageStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span></p>
       <div className={hidden ? homePageStyles.hiddenPart : ""}>
-        <h1>Micro-Scholarships for <u>Rad</u> <u>Web</u> <u>Shit</u>.</h1>
+        <h1>Micro-Scholarships for <u>Rad</u>. <u>Web</u>. <u>Shit</u>.</h1>
         <hr/>
         <div>
           <h2>Theme for April 2021: Web Projects for Local Communities</h2>
