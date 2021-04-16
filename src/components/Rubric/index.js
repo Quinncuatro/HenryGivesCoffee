@@ -10,7 +10,7 @@ const Rubric = () => {
 
   return (
     <div>
-      <p>[hquinn@HenryGives ~]$ <span className={rubricStyles.typed}>&nbsp;less rules.conf<span>&nbsp;</span></span></p>
+      <p>[hquinn@HenryGives ~]$ <span className={rubricStyles.typed}>&nbsp;less rubric.conf<span>&nbsp;</span></span></p>
       <div className={hidden ? rubricStyles.hiddenPart : ""}>
         <h1>Selection Rubric || Local Communities</h1>
         <hr/>
