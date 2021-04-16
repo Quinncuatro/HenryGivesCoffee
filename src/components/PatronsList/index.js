@@ -17,7 +17,7 @@ const PatronsPage = data => {
         <h1>HenryGives.Coffee Patrons</h1>
         <hr/>
         <p>All these wonderful people contribute to the <a href="https://www.patreon.com/henrygivescoffee" target="_blank" rel="noopener noreferrer">Patreon</a> set up to provide the developers making the internet a more rad place with a little more than just coffee money.</p>
-        <p>I couldn't do it without y'all. 🤘</p>
+        <p>I couldn't do it without y'all. <span role="img" aria-label="Handsign of heavy metal horns.">🤘</span></p>
         <hr/>
         {data.allPatronsYaml.edges[0].node.patrons.map((patron) => (
           <Patron
