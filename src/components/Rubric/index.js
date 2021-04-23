@@ -28,8 +28,8 @@ const Rubric = () => {
           <p>Round 2 - Sliding Scales:</p>
           <ul>
             <li>Novelty and need/usefulness of the projects.</li>
-            <li>Nature of the communities being served (i.e. are they niche or underserved?).</li>
             <li>Community and developer activity (i.e. are the developers responsive and actively maintaining the projects?).</li>
+            <li>Another qualifier or two based on the month's theme.</li>
           </ul>
 
           <p>I wish I could afford to buy all of you coffee, but sadly that's not the case. However, I can (and want to) be transparent about this part of the process.</p>

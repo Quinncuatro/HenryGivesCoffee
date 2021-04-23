@@ -16,17 +16,14 @@ const HomePage = () => {
         <h1>Micro-Scholarships for <u>Rad</u>. <u>Web</u>. <u>Shit</u>.</h1>
         <hr/>
         <div>
-          <h2>Theme for April 2021: Web Projects for Local Communities</h2>
+          <h2>Submissions Are Closed For April</h2>
+          <hr/>
+          <h2>Theme for May 2021: To Be Announced</h2>
 
-          <p>Some of the coolest projects I've seen come from folks wanting to help a community they're a part of.</p>
+          <p>I have a feeling that next month's theme is going to get a really fun group of submissions.</p>
 
-          <p>Just in the past year I've seen tools to help crowdsource mutual aid resources, COVID data trackers, and web apps that let small community organizations better interact with their members.</p>
-
-          <p>If you've built something cool to help a local community (doesn't matter how big or small) I'd love if you shared it with me!</p>
-
-          <p>Head on over to the submission form, tell me a little about what you hacked on, and maybe I'll give you some coffee!</p>
-
-          <Link to="/submission/">[ Submit a Project ]</Link>&nbsp;
+          <p>Can't wait to share more with y'all on May 1st!</p>
+           
         </div>
         <hr/>
         <div>

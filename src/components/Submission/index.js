@@ -19,8 +19,9 @@ const Submission = () => {
           <p>Some of my favorite projects (both to work on and see in the wild) have been things folks have built to help communities they're involved with.</p>
           <p>What's the coolest *<i>web thing</i>* you've built for a local community?</p>
           <p>If your project makes the cut, you'll get some coffee money. On me. ;)</p>
-          <p>Accepting entries through <strong><u>April 23rd, 2021</u></strong>.</p>
-          <SubmissionForm />
+          <p>Accepting entries through <strong><u>noon on April 23rd, 2021</u></strong>.</p>
+          <hr/>
+          <h2><u>Submissions Are Closed For April</u></h2>
         </div>
         <hr/>
         <Footer />
