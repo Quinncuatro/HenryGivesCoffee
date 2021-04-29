@@ -39,7 +39,7 @@ export default () => (
           </p>
 
           <li>In case your project is rad as hell:
-            <p>a.) What's your Venmo/Cash/Ko-fi or whatever?</p>
+            <p>a.) What's your Venmo/Cash/Ko-fi or whatever? Username AND service, please!</p>
             <p>
               <input type="text" name="payment" required />
             </p>
