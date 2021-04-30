@@ -12,7 +12,7 @@ const Rubric = () => {
     <div>
       <p>[hquinn@HenryGives ~]$ <span className={rubricStyles.typed}>&nbsp;less rubric.conf<span>&nbsp;</span></span></p>
       <div className={hidden ? rubricStyles.hiddenPart : ""}>
-        <h1>Selection Rubric || Local Communities</h1>
+        <h1>Selection Rubric</h1>
         <hr/>
         <div>
           <p>Even in the first month, Henry Gives Coffee has received so many more submissions than I could have hoped for. With this many websites to sort through, I felt a rubric would help me pick our winners.</p>
