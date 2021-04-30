@@ -16,13 +16,17 @@ const HomePage = () => {
         <h1>Micro-Scholarships for <u>Rad</u>. <u>Web</u>. <u>Shit</u>.</h1>
         <hr/>
         <div>
-          <h2>Submissions Are Closed For April</h2>
-          <hr/>
-          <h2>Theme for May 2021: To Be Announced</h2>
+          <h2>Theme for May 2021: Education</h2>
 
-          <p>I have a feeling that next month's theme is going to get a really fun group of submissions.</p>
+          <p>One of the incredible things we can do with web technologies is help other folks learn something new. I, personally, learned modern web development with free resources online.</p>
 
-          <p>Can't wait to share more with y'all on May 1st!</p>
+          <p><a href="https://freecodecamp.org">FreeCodeCamp</a> was a huge help to me, but there are other things out there to help students brush up on their math skills, teach folks about gardening, or to share backpacking tips & tricks.</p>
+
+          <p>If you've helped someone learn with something cool you've built (doesn't matter how big or small) I'd love if you shared it with me!</p>
+
+          <p>Head on over to the submission form, tell me a little about what you hacked on, and maybe I'll give you some coffee!</p>
+
+          <Link to="/submission/">[ Submit a Project ]</Link>&nbsp;
            
         </div>
         <hr/>
