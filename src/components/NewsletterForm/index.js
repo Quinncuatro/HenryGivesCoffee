@@ -40,7 +40,7 @@ export default class IndexPage extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hi people</h1>
+                <h1>Whatever Forever</h1>
                 <p>Submit the form below and check your browser console!</p>
                 <div>
                     <form onSubmit={this._handleSubmit}>
