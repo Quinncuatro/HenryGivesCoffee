@@ -16,13 +16,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
-      resolve: `gatsby-plugin-mailchimp`,
-      options: {
-        endpoint: `https://Coffee.us1.list-manage.com/subscribe/post?u=4ac5129c0337bf44580e1f2b5`,
-        timeout: 3500,
-      }
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,

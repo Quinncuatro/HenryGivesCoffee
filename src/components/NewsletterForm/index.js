@@ -1,100 +1,56 @@
-/* eslint no-console:0 no-alert:0 */
-import React from 'react'
-import addToMailchimp from 'gatsby-plugin-mailchimp'
+import React from "react"
 
-export default class IndexPage extends React.Component {
-    state = {
-        name: null,
-        email: null,
-    }
-
-    _handleChange = e => {
-        console.log({
-            [`${e.target.name}`]: e.target.value,
-        })
-        this.setState({
-            [`${e.target.name}`]: e.target.value,
-        })
-    }
-
-    _handleSubmit = e => {
-        e.preventDefault()
-
-        console.log('submit', this.state)
-
-        addToMailchimp(this.state.email, this.state)
-            .then(({ msg, result }) => {
-                console.log('msg', `${result}: ${msg}`)
-
-                if (result !== 'success') {
-                    throw msg
-                }
-                alert(msg)
-            })
-            .catch(err => {
-                console.log('err', err)
-                alert(err)
-            })
-    }
-
-    render() {
-        return (
-            <div>
-                <h1>Whatever Forever</h1>
-                <p>Submit the form below and check your browser console!</p>
-                <div>
-                    <form onSubmit={this._handleSubmit}>
-                        <input
-                            type="text"
-                            onChange={this._handleChange}
-                            placeholder="name"
-                            name="name"
-                        />
-                        <input
-                            type="email"
-                            onChange={this._handleChange}
-                            placeholder="email"
-                            name="email"
-                        />
-                        <br />
-                        <br />
-                        <b>Favorite color:</b>
-                        <ul>
-                            <li>
-                                <input
-                                    type="checkbox"
-                                    value="1"
-                                    name="group[21265][1]"
-                                    id="color-red"
-                                    onChange={this._handleChange}
-                                />
-                                <label htmlFor="color-red">red</label>
-                            </li>
-                            <li>
-                                <input
-                                    type="checkbox"
-                                    value="2"
-                                    name="group[21265][2]"
-                                    id="color-orange"
-                                    onChange={this._handleChange}
-                                />
-                                <label htmlFor="color-orange">orange</label>
-                            </li>
-                            <li>
-                                <input
-                                    type="checkbox"
-                                    value="4"
-                                    name="group[21265][4]"
-                                    id="color-yellow"
-                                    onChange={this._handleChange}
-                                />
-                                <label htmlFor="color-yellow">yellow</label>
-                            </li>
-                        </ul>
-                        <input type="submit" />
-                    </form>
-                </div>
-            </div>
-        )
-    }
-}
+export default () => (
+  <div>
+    <h2>Submission Form</h2>
+    
+form.html
+<form
+    action="https://Coffee.us1.list-manage.com/subscribe/post?u=4ac5129c0337bf44580e1f2b5&id=b438fc41d3"
+    method="post"
+    id="mc-embedded-subscribe-form"
+    name="mc-embedded-subscribe-form"
+    className="relative flex justify-center w-full mx-auto"
+    target="_blank"
+    >
+    <div className="w-full">
+        <div className="relative flex flex-col m-auto flex-nowrap sm:flex-row">
+        <input
+            type="email"
+            autoComplete="email"
+            name="EMAIL"
+            className="relative z-10 w-full min-w-0 px-4 py-3 mb-2 mr-2 font-semibold tracking-wide placeholder-gray-500 bg-white border-2 border-solid rounded-lg text-textBlack border-peppermint"
+            id="mce-EMAIL"
+            aria-label="Email Address"
+            placeholder="Email"
+            required
+        />
+        <div
+            style={{ position: "absolute", left: "-5000px" }}
+            aria-hidden="true"
+        >
+            <input
+            type="text"
+            name="b_4ac5129c0337bf44580e1f2b5_b438fc41d3"
+            tabIndex={-1}
+            defaultValue
+            />
+        </div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
+        </div>
+    </div>
+    <div id="mce-responses" className="">
+        <div
+        className=""
+        id="mce-error-response"
+        style={{ display: "none" }}
+        />
+        <div
+        className=""
+        id="mce-success-response"
+        style={{ display: "none" }}
+        />
+    </div>
+    </form>
+  </div>
+)
