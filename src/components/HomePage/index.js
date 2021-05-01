@@ -51,7 +51,6 @@ const HomePage = () => {
           <p>Let me give you a coffee for making the internet a more interesting place.</p>
         </div>
         <hr/>
-        <NewsletterForm />
         <hr/>
         <Footer />
       </div>
