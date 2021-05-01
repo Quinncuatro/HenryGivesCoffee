@@ -2,9 +2,9 @@ import React from "react"
 
 export default () => (
   <div>
-    <h2>Rad Web Shit Right In Your Inbox</h2>
+    <h2>Rad Web Shit Right In Your Inbox <span role="img" aria-label="Handsign of heavy metal horns.">🤘</span></h2>
 
-    <p>Sign up for one long update every month on the new group of winners followed by three shorter weekly updates about other cool projects around the internet.</p>
+    <p>Sign up for one long update at the start of every month about the new group of winners followed by three shorter weekly updates about other cool projects around the internet.</p>
 
     <p>I only store your email, which I promise to never sell. That'd be the opposite of rad.</p>
     

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import homePageStyles from "./homePage.module.css"
-import NewsletterForm from "../NewsletterForm"
 import Footer from "../Footer"
 
 const HomePage = () => {
