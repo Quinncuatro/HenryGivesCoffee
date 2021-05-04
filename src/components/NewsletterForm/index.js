@@ -1,7 +1,5 @@
 import React from "react"
 
-const MAILCHIMP_URL = process.env.MAILCHIMP_URL;
-
 export default () => (
   <div>
     <h2>Rad Web Shit Right In Your Inbox <span role="img" aria-label="Handsign of heavy metal horns.">🤘</span></h2>
@@ -11,7 +9,7 @@ export default () => (
     <p>I only store your email, which I promise to never sell. That'd be the opposite of rad.</p>
     
     <form
-        action=`${MAILCHIMP_URL}`
+        action="https://Coffee.us1.list-manage.com/subscribe/post?u=4ac5129c0337bf44580e1f2b5&id=b438fc41d3"
         method="post"
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
