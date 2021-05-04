@@ -11,7 +11,7 @@ export default () => (
     <p>I only store your email, which I promise to never sell. That'd be the opposite of rad.</p>
     
     <form
-        action={MAILCHIMP_URL}
+        action=`${MAILCHIMP_URL}`
         method="post"
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
