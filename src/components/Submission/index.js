@@ -20,7 +20,7 @@ const Submission = () => {
           <p>If your project makes the cut, you'll get some coffee money. On me. ;)</p>
           <p>Accepting entries through <strong><u>noon on May 23rd, 2021</u></strong>.</p>
           <hr/>
-          <SubmissionForm/>
+          <h2><u>Submissions Are Closed For May</u></h2>
         </div>
         <hr/>
         <Footer />
