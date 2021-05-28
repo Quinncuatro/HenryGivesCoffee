@@ -23,14 +23,14 @@ export default () => (
             <input type="text" name="project-name" required />
           </p>
 
-          <li>Live URL (Optional)</li>
+          <li>Live URL</li>
           <p>
-            <input type="text" name="project-url" />
+            <input type="text" name="project-url" required />
           </p>
 
-          <li>Git Repo URL (Optional)</li>
+          <li>Git Repo URL</li>
           <p>
-            <input type="text" name="project-git" />
+            <input type="text" name="project-git" required />
           </p>
 
           <li>Tell me all about your project! What inspired it? What challenged you?</li>
