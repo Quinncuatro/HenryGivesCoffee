@@ -19,7 +19,7 @@ Please, though, read on to see why these six projects struck me as substantial c
 ---
 ---
 
-## April's Most Rad ($25 each)
+## May's Most Rad ($25 each)
 
 Every month I pick three winners out of the submissions that meet all the criteria on the [rubric](../../rubric).
 
@@ -121,7 +121,7 @@ You love to see it. Really glad to send you some coffee money, Tommaso. I hope y
 ---
 ---
 
-## April's Honorable Mentions ($18 each)
+## May's Honorable Mentions ($18 each)
 
 Every month I pick two winners out of the submissions that _don't quite_ meet all the criteria on the [rubric](../../rubric).
 
@@ -179,7 +179,7 @@ I love what you were able to do for ShowerBox, Andrew. I'm glad to be able to se
 ---
 ---
 
-## April's Community Favorite ($15 each)
+## May's Community Favorite ($15 each)
 
 Every month, a group of [my Patreon](https://www.patreon.com/henrygivescoffee) patrons selects their favorite project (that aren't already winners or honorable mentions) to get half of their total donations.
 
