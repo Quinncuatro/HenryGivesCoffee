@@ -10,6 +10,8 @@ const ShowcasePage = data => {
     setTimeout(() => setHidden(false), 900)
   }, [])
 
+  console.log(data);
+
   return (
     <div>
       <p>[hquinn@HenryNeeds ~]$ <span className={showcaseCollectionStyles.typed}>&nbsp;ls /var/www/html/<span>&nbsp;</span></span></p>
@@ -18,11 +20,12 @@ const ShowcasePage = data => {
         <hr/>
         <p>These are the projects from each collection that absolutely blew me away. Devs building rad shit for the web is always a good thing, and these developers earned their coffee.</p>
         <hr/><hr/>
-        <h2>Collection 1: Local Community</h2>
+        <h2>Collection 2: Education</h2>
         <hr/><hr/>
-        {data.allShowcaseYaml.edges[0].node.projects.map((project) => (
+        {data.allShowcaseYaml.edges[0].node.projects.filter(project => project.showcase === "May2021").map((project) => (
           <Showcase
             devName={project.devName}
+            showcase={project.showcase}
             projectName={project.projectName}
             liveURL={project.liveURL}
             gitURL={project.gitURL}
@@ -33,7 +36,24 @@ const ShowcasePage = data => {
             devContact={project.devContact}
           />
         ))}
+        <hr/>
+        <h2>Collection 1: Local Community</h2>
         <hr/><hr/>
+        {data.allShowcaseYaml.edges[0].node.projects.filter(project => project.showcase === "April2021").map((project) => (
+          <Showcase
+            devName={project.devName}
+            showcase={project.showcase}
+            projectName={project.projectName}
+            liveURL={project.liveURL}
+            gitURL={project.gitURL}
+            description={project.description}
+            plug={project.plug}
+            projectScreenshot={project.projectScreenshot}
+            paymentURL={project.paymentURL}
+            devContact={project.devContact}
+          />
+        ))}
+        <hr/>
         <h2>Collection 0: Henry Gives Coffee</h2>
         <hr/><hr/>
         <Showcase
@@ -61,6 +81,7 @@ export default () => (
             node {
               projects {
                 devName
+                showcase
                 projectName
                 liveURL
                 gitURL

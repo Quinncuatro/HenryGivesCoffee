@@ -16,11 +16,11 @@ const HomePage = () => {
         <h1>Micro-Scholarships for <u>Rad</u>. <u>Web</u>. <u>Shit</u>.</h1>
         <hr/>
         <div>
-           <h2>Submissions Are Closed For May</h2>
-           <hr/>
-           <h2>Theme for June 2021: To Be Announced</h2>
-           <p>I have a feeling that next month's theme is going to get a really fun group of submissions.</p>
-           <p>Can't wait to share more with y'all on June 1st!</p>
+          <h2>Theme for June 2021: Sharing a Hobby</h2>
+          <p>I've learned so much about a dizzying array of subjects from websites folks have set up just to share information about their hobbies. From rock climbing to baking fresh sourdough to skydiving, there are all sorts of people trying to teach others about things they're passionate about.</p>
+          <p>If you've ever set up a site to share info about a hobby you have outside of web development (doesn't matter how big or small) I'd love if you shared it with me!</p>
+          <p>Head on over to the submission form, tell me a little about what you hacked on, and maybe I'll give you some coffee!</p>
+          <Link to="/submission/">[ Submit a Project ]</Link>&nbsp;
         </div>
         <hr/>
         <div>

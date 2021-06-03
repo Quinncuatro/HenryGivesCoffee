@@ -19,7 +19,7 @@ export default (props) => (
           <a href={props.liveURL} target="_blank" rel="noopener noreferrer">[ Live Site ]&nbsp;</a>
           { props.gitURL && <a href={props.gitURL} target="_blank" rel="noopener noreferrer">[ Git Repo ]&nbsp;</a> }
           { props.paymentURL && <a href={props.paymentURL} target="_blank" rel="noopener noreferrer">[ Donate ]&nbsp;</a> }
-          <a href={props.devContact} target="_blank" rel="noopener noreferrer">[ Get In Touch ]&nbsp;</a>
+          { props.devContact && <a href={props.devContact} target="_blank" rel="noopener noreferrer">[ Get In Touch ]&nbsp;</a> }
           <br /><br />
         </div>
         <hr />
