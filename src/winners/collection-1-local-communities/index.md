@@ -217,7 +217,7 @@ I'm sending out digital payments to all six winners right after this post goes l
 
 Thank you all for building rad shit for the web. The world needs it and plenty of folks are benefitting from the projects you're maintaining.
 
-Next month's theme is "Education". If anyone reading this (or anyone you know) is working on a project that allows people to learn something, please head over to the [Submit a Project](../../submit) page and let me know about it!
+Next month's theme is "Education". If anyone reading this (or anyone you know) is working on a project that allows people to learn something, please head over to the [Submit a Project](../../submission) page and let me know about it!
 
 It might just be you I'm giving coffee to next month.
 
